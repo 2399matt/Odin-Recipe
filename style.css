@@ -20,7 +20,8 @@ body.header p{
 body.header{
     -webkit-background-composite: border;
     background-image:url(./Images/kitch.jpg);
-    background-size:contain;
+    background-size:cover;
+    margin-bottom:50px;
     background-repeat: no-repeat;
     background-blend-mode:difference;
 
@@ -66,11 +67,13 @@ body.main{
     font-family: Helvetica,Arial,sans-serif;
     text-align:center;
 }
-.main button{
-    display:inline;
+.recipeBut{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
     border-radius:12px;
     width:300px;
-    height: 200px;
+    height:auto;
     background-color:lightgray;
 }
 .main button a{
@@ -84,4 +87,15 @@ body.main{
     margin-left:auto;
     margin-right:auto;
     border-radius:5px;
+}
+.odinText{
+    font-size:30px;
+    text-decoration:none;
+    color:white;
+    font-family:"Helvetica";
+    margin-left:auto;
+    display:contain;
+    background-color:black;
+    border-style:double;
+    border-color:crimson;
 }
